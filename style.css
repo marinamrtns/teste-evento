@@ -28,6 +28,11 @@ form {
     background-color: hsla(0, 0%, 36%, 0.75);
 }
 
+.form-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
 .btn-custom {
     background: #ffff01;
     transition: .3s;
@@ -38,14 +43,9 @@ form {
     color: #fff;
 }
 
-.form-title {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
 .float-animation {
     -webkit-animation: float_2871 2s linear infinite;
-            animation: float_2871 2s linear infinite;
+    animation: float_2871 2s linear infinite;
     transform-origin: 50% 50%;
 }
 
