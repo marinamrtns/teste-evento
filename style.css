@@ -1,0 +1,63 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    background: url('img/bg-1.jpg') center / cover fixed;
+}
+
+header {
+    background: linear-gradient(to right, #f15922 0%, #f15922 50%, #ffff01 51%, #ffff01 100%);
+}
+
+h3 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #f15a22;
+}
+
+h5 {
+    margin-bottom: 2rem;
+}
+
+.covid {
+    background: hsla(45, 100%, 51%, 0.35);
+}
+
+form {
+    background-color: hsla(0, 0%, 36%, 0.75);
+}
+
+.btn-custom {
+    background: #ffff01;
+    transition: .3s;
+}
+
+.btn-custom:hover {
+    background: #f15a22;
+    color: #fff;
+}
+
+.form-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.float-animation {
+    animation: float_2871 2s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes float_2871 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-6px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
