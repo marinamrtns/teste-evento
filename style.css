@@ -44,8 +44,23 @@ form {
 }
 
 .float-animation {
-    animation: float_2871 2s linear infinite;
+    -webkit-animation: float_2871 2s linear infinite;
+            animation: float_2871 2s linear infinite;
     transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes float_2871 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-6px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
 }
 
 @keyframes float_2871 {
