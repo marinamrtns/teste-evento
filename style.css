@@ -6,8 +6,11 @@ main {
     background: url('img/bg-1.jpg') center / cover fixed;
 }
 
-header {
-    background: linear-gradient(to right, #f15922 0%, #f15922 50%, #ffff01 51%, #ffff01 100%);
+
+@media screen and (min-width: 575px) {
+    header {
+        background: linear-gradient(to right, #f15922 0%, #f15922 50%, #ffff01 51%, #ffff01 100%);
+    }  
 }
 
 h3 {
